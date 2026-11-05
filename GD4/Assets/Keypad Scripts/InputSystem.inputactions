@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "InputSystem",
+    "maps": [
+        {
+            "name": "RightHand",
+            "id": "bf47a4a6-a08c-4ccf-bbd9-c184f416ad47",
+            "actions": [
+                {
+                    "name": "StepOver",
+                    "type": "Button",
+                    "id": "a64d3016-4e5b-4b81-b829-1f2ceea6c6e6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "257656fa-fb09-4817-9ea6-9eab00936cf6",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StepOver",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
